@@ -1,0 +1,35 @@
+{
+  "name": "projet_multitiers",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^3.3.7",
+    "lodash": "^4.17.4",
+    "react": "^15.6.2",
+    "react-axios": "^1.0.3",
+    "react-beforeunload": "^1.0.4",
+    "react-dom": "^15.6.2",
+    "react-native-orientation": "^3.1.0",
+    "react-screen-orientation": "0.0.3",
+    "react-scripts": "^1.0.14",
+    "react-transition-group": "^2.2.1",
+    "reactstrap": "^5.0.0-alpha.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://marcantoinebechard@bitbucket.org/AL-CCG/projet_multitiers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "http://localhost:80"
+}

@@ -1,0 +1,189 @@
+
+#containerAdmin{
+	background: url('../img/backgroundImg/BackgroundSpace.jpg') no-repeat center center fixed;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	margin: 0 0 0 0;
+}
+
+#adminDashboardTitle{
+	color:white;
+	font-size: 6vh;
+	line-height: 6vh;
+	font-weight: bold;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 5vh;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+#contentAdmin{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	top: 10%;
+	background-color:rgba(10,123,134,0.4);
+	border-radius:10px;
+	width: 70vw;
+	height: 60vh;
+	padding: 5px;
+}
+
+#salutationAdmin{
+	border-top-left-radius:2em;
+	border-top-right-radius:2em;
+	text-align:center;
+	margin: 1vh 0 0 1.55vw;
+	background-color: green;
+	font-family: "Courier New", serif;
+	font-size: 3vh;
+	color:white;
+	width: 90%;
+	height:5vh;
+	padding: 1vw;
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
+}
+
+#btnDisconnect{
+	display: block;
+	width: 17vh;
+	height: 17vh;
+	background: linear-gradient(to right, red , #ff4d4d, #ff4d4d);
+	padding: 1vh;
+	font-size: 2.5vh;
+	margin: 1vh 0 0 4vw;
+	border-radius: 50%;
+
+}
+
+aside.gauche{
+	padding-top:1.5vh;
+	width:40vw;
+	height:40vh;
+	padding-left:4vw;
+	float: left;
+}
+aside.droit{
+	padding-top:50px;
+	padding-left:5%;
+	width:40%;
+	float: right;
+}
+
+#containerUserList{
+	display: inline-block;
+	position: relative;
+	background-color: black;
+	font-family: "Courier New", serif;
+	color: white;
+	width: 90%;
+	height: 40vh;
+	padding: 5px;
+	margin: 0 20% 0 20px;
+	overflow: auto;
+}
+
+.userLine{
+	width: 100%;
+	height: 5vh;
+	margin-top: 1vh;
+	font-size:2vh;
+}
+
+.isConnected {
+	padding-left:2vw;
+	color: green;
+	display: inline-block;
+	font-size: 3vh;
+	font-weight: bold;
+}
+
+.isNotConnected{
+	padding-left:2vw;
+	color: grey;
+	display: inline-block;
+	font-size: 3vh;
+	font-weight: bold;
+}
+
+.btnDeconnexionUser{
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	color: blue;
+	background-color: green;
+	color:black;
+	border-radius: 20px;
+	padding: 2px;
+	width: 30%;
+	height: auto;
+	margin-bottom: 10px
+
+
+}
+
+#radar{
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	background-image: url('../img/backgroundImg/radar.gif');
+	background-position: 49.2% 48.7%;
+	border-radius:4vh;
+	width: 22vw;
+	height: 23vh;
+
+}
+
+.btnDeconnexionUser:disabled{
+	background-color: grey;
+	color: white;
+}
+.singleLineAdmin{
+	display:none !important;
+}
+
+@media screen and (max-width: 900px),
+@media ( orientation : portrait) {
+	#contentAdmin{
+		top: 2% !important;
+		width: 90% !important;
+		height: 65% !important;
+		padding: 5% !important;
+	}
+	aside.gauche{
+		padding-top:1vh;
+		padding-left:0px;
+		width:60vw;
+		float: left;
+	}
+	aside.droit{
+		display:none;
+	}
+	.singleLineAdmin{
+		display:block !important;
+		position:absolute!important;
+		margin-left:35% !important;
+		margin:0!important;
+		left:70vw;
+		bottom:25vh;
+	}
+	#containerAdmin{
+		height: 100vh !important;
+	}
+	.btnDeconnexionUser{
+		display: inline-block;
+		position: absolute;
+		right: 10px;
+		color: blue;
+		background-color: green;
+		color:black;
+		border-radius: 20px;
+		padding: 1%;
+		width: 30%;
+	}
+}

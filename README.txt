@@ -21,7 +21,7 @@ Première étape
 --------------
 
  - Forker le repo du projet.
-   url: https://bitbucket.org/AL-CCG/projet_multitiers 
+   url: https://github.com/mabechard/mysticat
 
  - Cloner le projet sur votre instance (git clone)
 
